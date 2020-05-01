@@ -8,4 +8,61 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="LauncherTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+    <style name="Re.Toolbar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="titleTextAppearance">@style/ToolbarTitleTextAppearance</item>
+        <item name="subtitleTextAppearance">@style/ToolbarSubtitleTextAppearance</item>
+        <item name="android:theme">@style/Re.Toolbar.Theme</item>
+        <item name="popupTheme">@style/Re.PopupMenu</item>
+    </style>
+
+    <style name="ToolbarTitleTextAppearance" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ToolbarSubtitleTextAppearance" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Re.Toolbar.Theme" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="autoCompleteTextViewStyle">@style/Re.Toolbar.SearchView</item>
+    </style>
+
+    <style name="Re.Toolbar.SearchView" parent="Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+
+    <style name="Re.PopupMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:background">@null</item>
+        <item name="android:popupBackground">?attr/colorSecondary</item>
+        <item name="android:colorBackground">?attr/colorSecondary</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+    <style name="Re.Button" parent="Widget.AppCompat.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/color_button_text</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:background">@drawable/shape_btn_search</item>
+    </style>
+
+    <style name="Re.TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabTextColor">@color/colorBackground</item>
+        <item name="tabMode">fixed</item>
+        <item name="tabRippleColor">@null</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+    </style>
+
 </resources>

@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Air Wizard</string>
+    <string name="database">AirWizard.db</string>
+    <string name="point_destination">Куда летим?</string>
+    <string name="point_origin">Откуда вылет?</string>
+    <string name="title_destination">Выберите точку прибытия</string>
+    <string name="title_origin">Выберите точку отправления</string>
+    <string name="title_flight">Выберите дату отправления</string>
+    <string name="add_return_flight">+ Добавить обратный рейс</string>
+    <string name="title_return_flight">Выберите дату обратного рейса</string>
+    <string name="token">5fbb305fb453e144e12e6170c5e7eadd</string>
+    <string name="search_tickets">Найти билеты</string>
+    <string name="tickets_cheap">Дешевые</string>
+    <string name="tickets_latest">Все</string>
+    <string name="tickets_calendar">Подходящие</string>
+    <string name="price">%1$d ₽</string>
+    <string name="logo_path" formatted="false">https://pics.avs.io/200/200/%1$s.png</string>
+    <string name="empty_text">На эти даты билетов не найдено</string>
+    <string name="unknown_error">Неизвестная ошибка</string>
+    <string name="dep_time_title">Вылета туда:</string>
+    <string name="return_time_title">Вылет обратно:</string>
+    <string name="flight_number_title">Номер рейса:</string>
+    <string name="changes_title">Пересадок:</string>
+
 </resources>
